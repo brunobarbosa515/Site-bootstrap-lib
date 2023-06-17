@@ -1,0 +1,79 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ul-custom li a {
+    font-size: .95rem;
+    font-weight: 900;
+    color: white;
+}
+
+.ul-custom li a:hover {
+    color: white;
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.logo {
+    font-size: 1.9rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+}
+
+.wrapper-icon i {
+    font-size: 1.4rem;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.wrapper-icon i:hover {
+    color: white;
+    opacity: .85;
+}
+
+.wrapper-icon {
+    padding-top: 2.3%;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/bgheader.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+hr {
+    width: 80px;
+    margin: 0 auto;
+    border: 1px solid white;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.wrapper-title {
+    padding-top: 13%;
+}
+
+.wrapper-title h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4.4rem;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.btn-custom {
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.mask {
+    background-color: rgba(9, 0, 27, 0.74);
+}
